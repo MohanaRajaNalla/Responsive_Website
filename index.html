@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/aroecpyyl/rb_2148134680%20(1).png?updatedAt=1737543347103">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="list-items">
+            <li><a class="nav-a active" href="#">Home</a></li>
+            <li><a class="nav-a" href="#events">Events</a></li>
+            <li><a class="nav-a" href="#explore">Explore</a></li>
+            <li><a class="nav-a" href="#tours">Tours</a></li>
+            <li><a class="nav-a btn" href="#">Contact</a></li>
+        </ul>
+        <img src="https://ik.imagekit.io/aroecpyyl/menu-btn.png?updatedAt=1737540832036" alt="" class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="header-cont">
+            <h2>Explore the Colourful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a  href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <section class="events" id="events">
+        <h1 class="title">Upcoming Events</h1>
+        <div class="line"></div>
+        <div class="row">
+            <div class="col">
+                <img src="https://ik.imagekit.io/aroecpyyl/img1.png?updatedAt=1737540832043" alt="event1">
+                <h2>Everest Camp Trek</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio sint, ut, consequatur voluptates quidem repellendus, error deserunt soluta enim quam dolorum ratione culpa modi cupiditate accusamus officiis mollitia a!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="https://ik.imagekit.io/aroecpyyl/img2.png?updatedAt=1737540831526" alt="event2">
+                <h2>Walking Holidays</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto enim veritatis est nihil sit, blanditiis assumenda velit hic in laudantium consectetur saepe animi? Dolore modi tempora sapiente nisi. Sit, laboriosam!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias id inventore exercitationem quos accusamus consequatur nobis distinctio explicabo. Similique velit inventore placeat aperiam, quae iste impedit qui distinctio consequatur dicta!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt nemo rerum dolorem ad, odit error quaerat perspiciatis omnis unde sequi excepturi consequatur, ab est quae quibusdam, voluptatem nesciunt obcaecati!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col images-col">
+                <div class="img-gallery">
+                    <img src="https://ik.imagekit.io/aroecpyyl/img3.png?updatedAt=1737540831420" alt="img3">
+                    <img src="https://ik.imagekit.io/aroecpyyl/img4.png?updatedAt=1737540831519" alt="img4"> 
+                    <img src="https://ik.imagekit.io/aroecpyyl/img5.png?updatedAt=1737540831522" alt="img5">
+                    <img src="https://ik.imagekit.io/aroecpyyl/img6.png?updatedAt=1737540831410" alt="img6">
+                </div>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Newyork,USA | Phone: 8328501587 | Email: nallamohana623@gmail.com</p>
+        <p>CopyRight © 2025 Adventure</p>
+    </section>
+    <script>
+         const menuBtn = document.querySelector('.menu-btn');
+         const listItems = document.querySelector('.list-items');
+         menuBtn.addEventListener('click', () => {
+             listItems.classList.toggle('mobile-menu');
+         });
+    </script>
+</body>
+</html>
